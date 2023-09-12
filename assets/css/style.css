@@ -55,13 +55,13 @@ h1 {
 
 h2 {
     color: hsl(210, 10%, 33%);
-    margin: 1rem;
+    margin: 1rem 0;
     font-size: 1.8rem;
 }
 
 h3 {
     color: hsl(210, 10%, 33%);
-    margin: 1rem;
+    margin: 1rem 0;
     font-size: 1.5rem;
 }
 
@@ -238,18 +238,17 @@ footer {
     #access,
     #workflow,
     #partner,
+    #download,
     #downloadDown {
         width: 50%;
         margin: 25vh auto;
     }
 
     #download {
-        width: 50%;
         margin: 10vh auto;
     }
 
     #functionality {
-        border: 1px green solid;
         width: 100%;
         margin: 25vh auto;
         display: flex;
@@ -260,15 +259,20 @@ footer {
 
     #functionality #functionalityParagraph {
         width: 50%;
-        border: 1px blue solid;
     }
 
     #blockFunction {
-        border: 1px red solid;
         width: 100%;
         margin-top: 10vh;
         display: flex;
-        justify-content: space-between;
         align-content: flex-start;
+    }
+    #blockFunctionImage{
+        width: 50%;
+    }
+    #functions {
+        width: 50%;
+        padding: 0 10vw;
+        text-align: left;
     }
 }
