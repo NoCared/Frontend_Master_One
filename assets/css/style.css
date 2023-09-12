@@ -64,7 +64,7 @@ h3{
     font-size: 1.5rem;
 }
 
-#functionality, #access, #workflow {
+#functionality, #access, #workflow, #partner, #downloadDown {
     width: 90%;
     margin: 25vh auto;
 }
@@ -80,11 +80,11 @@ h3{
     border: 1px black solid;
 }
 
-#iosDownloadButton {
+.iosDownloadButton {
     background-color: hsl(171, 66%, 44%);
 }
 
-#macDownloadButton {
+.macDownloadButton {
     background-color: hsl(233, 100%, 69%);
 }
 
@@ -153,4 +153,10 @@ h3{
 #partner div{
     width: 100%;
     margin: 2rem;
+}
+
+/* DOWNLOAD DOWN - Section */
+
+#downloadDown p {
+    margin: 1rem 0 3rem 0;
 }
