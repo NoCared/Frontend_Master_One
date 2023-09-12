@@ -38,12 +38,16 @@ header{
 
 main{
     font-size: 18px;
+    text-align: center;
+}
+p{
+    color: hsl(201, 11%, 66%);
 }
 
 /* COMMON */
 
 h1{
-
+    color: hsl(210, 10%, 33%);
 }
 
 /* DOWNLOAD - Section*/
