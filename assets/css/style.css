@@ -121,11 +121,20 @@ h3{
 
 /* WORKFLOW - Section */
 
+#functionCards p {
+    font-stretch: extra-expanded;
+}
 #functionCards{
+    margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
 }
 
-.card{
+#functionCards .card{
+    margin: 2rem;
+}
 
+#functionCards .card img{
+    height: 5vh;
+    width: auto;
 }
