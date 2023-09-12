@@ -64,9 +64,9 @@ h3{
     font-size: 1.5rem;
 }
 
-#functionality {
+#functionality, #access, #workflow {
     width: 90%;
-    margin: 20vh auto;
+    margin: 25vh auto;
 }
 
 /* BUTTONS */
@@ -111,4 +111,21 @@ h3{
 #blockFunction div{
     margin: 1rem;
     font-stretch: extra-expanded;
+}
+
+/* ACCESS - Section */
+
+#access div{
+    margin-top: 5rem;
+}
+
+/* WORKFLOW - Section */
+
+#functionCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+
 }
