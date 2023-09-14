@@ -144,7 +144,7 @@ h3 {
 }
 
 #functionCards .card {
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 #functionCards .card img {
@@ -160,6 +160,7 @@ h3 {
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
@@ -231,12 +232,12 @@ footer {
 
     .button {
         display: inline;
-        margin: 2rem;
+        width: 40%;
+        margin: 0 1vw;
         padding: 1rem 5rem;
     }
 
     #access,
-    #workflow,
     #partner,
     #download,
     #downloadDown {
@@ -267,12 +268,62 @@ footer {
         display: flex;
         align-content: flex-start;
     }
-    #blockFunctionImage{
+
+    #blockFunctionImage {
         width: 50%;
     }
+
     #functions {
         width: 50%;
         padding: 0 10vw;
         text-align: left;
+    }
+
+    #functionCards {
+        flex-wrap: none;
+        justify-content: space-evenly;
+    }
+
+    #functionCards .card {
+        width: 22%;
+    }
+
+
+    #partner div {
+        width: 15%;
+        padding: 2rem;
+        margin: 0;
+    }
+
+    #partner {
+        width: 80%;
+    }
+
+
+
+    #footerNav {
+        flex-direction: row;
+        height: 20vh;
+    }
+
+    #footerLogo {
+        margin-top: 0;
+        width: 5%;
+    }
+
+    #footerLinks {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 30vw;
+        height: 10vh;
+    }
+
+    #footerLinks div {
+        width: 30%;
+    }
+
+    #socialNetworks {
+        width: 10%;
     }
 }
